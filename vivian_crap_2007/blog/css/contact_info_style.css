@@ -1,0 +1,91 @@
+/* My Personals Info */
+#personalsInfo {
+	width: 433px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#personalsInfo #infoRow {
+	width: 433px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#personalsInfo .infoHighlighted {
+	color: #872e01;
+}
+
+#personalsInfo .infoLeft_1 {
+	background: url(../images/personals_images/info_1.jpg) no-repeat;
+	width: 14px;
+	height: 76px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#personalsInfo .infoMiddle_1 {
+	background: url(../images/personals_images/info_2.jpg) no-repeat;
+	width: 87px;
+	height: 76px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#personalsInfo .infoMiddle_2 {
+	background: url(../images/personals_images/info_3.jpg) no-repeat;
+	width: 164px;
+	height: 76px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#personalsInfo .infoRight_1 {
+	background: url(../images/personals_images/info_4.jpg) no-repeat;
+	width: 168px;
+	height: 76px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#personalsInfo .infoLeft_2 {
+	background: url(../images/contacts_images/info_1.jpg) no-repeat;
+	width: 15px;
+	height: 71px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#personalsInfo .infoMiddle_3 {
+	background: url(../images/contacts_images/info_2.jpg) no-repeat;
+	width: 86px;
+	height: 71px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#personalsInfo .infoMiddle_4 {
+	background: url(../images/contacts_images/info_3.jpg) no-repeat;
+	width: 164px;
+	height: 71px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#personalsInfo .infoRight_2 {
+	background: url(../images/contacts_images/info_4.jpg) no-repeat;
+	width: 168px;
+	height: 71px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+

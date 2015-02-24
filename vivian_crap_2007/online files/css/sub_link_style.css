@@ -1,0 +1,112 @@
+/* Sub Links */
+#subLink ul {
+	width: 433px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#subLink li {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#subLink .leftLink_1 {
+	background: url(../images/personals_images/sub_link_left.jpg) no-repeat;
+	width: 13px;
+	height: 18px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#subLink .objectiveLink {
+	background: url(../images/personals_images/sub_link_objective.jpg) no-repeat;
+	width: 106px;
+	height: 18px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#subLink .educationLink {
+	background: url(../images/personals_images/sub_link_education.jpg) no-repeat;
+	width: 103px;
+	height: 18px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#subLink .experiencesLink {
+	background: url(../images/personals_images/sub_link_experiences.jpg) no-repeat;
+	width: 127px;
+	height: 18px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#subLink .skillsLink {
+	background: url(../images/personals_images/sub_link_skills.jpg) no-repeat;
+	width: 84px;
+	height: 18px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#subLink a.label{
+	vertical-align: middle;
+	margin: 0px 0px 0px 16px;
+	padding: 0px;
+}
+
+#subLink .leftLink_2 {
+	background: url(../images/archives_images/sub_link_left.jpg) no-repeat;
+	width: 12px;
+	height: 16px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#subLink .flashLink {
+	background: url(../images/archives_images/sub_link_flash.jpg) no-repeat;
+	width: 107px;
+	height: 16px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#subLink .photoshopLink {
+	background: url(../images/archives_images/sub_link_photoshop.jpg) no-repeat;
+	width: 137px;
+	height: 16px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#subLink .webLink {
+	background: url(../images/archives_images/sub_link_web.jpg) no-repeat;
+	width: 103px;
+	height: 16px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#subLink .recipesLink {
+	background: url(../images/archives_images/sub_link_recipes.jpg) no-repeat;
+	width: 74px;
+	height: 16px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+

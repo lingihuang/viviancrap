@@ -1,0 +1,137 @@
+/* Basic Elements */
+html {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: url(../images/background.jpg) top left;
+	font-family: Verdana, Arial, Century Gothic, Helvetica;
+	font-size: 10px;
+	color: #333333;
+	letter-spacing: .4px;
+	word-spacing: .3px;
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	border-width: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+a:link, a:active, a:visited {
+	font-size: 9px;
+	font-weight: bold;
+	color: #c33c00;
+	text-decoration: none;
+}
+
+a:hover {
+	font-size: 9px;
+	font-weight: bold;
+	color: #e55202;
+	text-decoration: underline;
+}
+
+#wrapper {
+	width: 707px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+/* Left Menu */
+#leftMenuTable {
+	width: 256px;
+	border-width: 0px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#leftMenuTable .detailLeft {
+	background: url(../images/latest_work_images/latest_detail_1.jpg) no-repeat;
+	width: 41px;
+	height: 72px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#leftMenuTable .detailMiddle_1 {
+	background: url(../images/latest_work_images/latest_detail_2.jpg) no-repeat;
+	width: 49px;
+	height: 72px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#leftMenuTable .detailMiddle_2 {
+	background: url(../images/latest_work_images/latest_detail_3.jpg) no-repeat;
+	width: 157px;
+	height: 72px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#leftMenuTable .detailRight {
+	background: url(../images/latest_work_images/latest_detail_4.jpg) no-repeat;
+	width: 9px;
+	height: 72px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#leftMenuTable #detailLabel {
+	font-size: 9px;
+	color: #800400;
+	margin: 0px;
+	padding: 0px;
+}
+
+#leftMenuTable #detailTexts {
+	font-size: 9px;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Middle Contents */
+#contentTable {
+	width: 433px;
+	border-width: 0px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+.texts {
+	width: 403px;
+	margin: 0px 12px 10px 18px;
+	padding: 0px;
+}
+
+/* Right Bar Image */
+#rightBar {
+	width: 18px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+/* Footer */
+#footer {
+	font-size: 9px;
+	color: #bc2c00;
+	text-align: left;
+	margin: 0px;
+	padding: 0px 0px 5px 40px;
+	float: left;
+}
