@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="content-language" content="en-US">
+	<meta name="author" content="Vivian Huang" />
+	<meta name="keywords" content="Web Design, Web Development, HTML, CSS, JavaScript" />
+	<meta name="description" content="" />
+	<title>Vivian Crap</title>
+	<link rel="stylesheet" href="css/default.css" media="all">
+	<link rel="stylesheet" href="css/ezHTML.css" media="all">
+	<link rel="stylesheet" href="css/prettyprint.css" media="all">
+	<link rel="stylesheet" href="css/prettify/bootstrap.css" media="all">
+	<script type="text/javascript" src="libs/jquery/jquery-1.11.0.js"></script>
+	<script type="text/javascript" src="js/less-1.6.3.min.js"></script>
+	<script type="text/javascript" src="js/prettify.js"></script>
+	<script type="text/javascript" src="js/util.js"></script>
+</head>
+
+<body onload="prettyPrint();">
+	<div class="wrapper">
+		<div class="top-header">
+			<div class="main">
+				<a class="logo" href="/"><img class="logo" src="images/logo_puritys.png" hight="125" width="250" alt="Vivian Crap" title="Vivian Crap"></a>
+				<a class="navbar-btn" href="#"><span class="icon"></span></a>
+			</div>
+			<ul class="navbar navbar-intl">
+				<li>
+					<a href="#"><b>關於我</b>About Me</a>
+				</li>
+				<li>
+					<a href="#"><b>新聞</b>News</a>
+				</li>
+				<li class="dropdown active">
+					<a href="#"><b>網路資源</b>Web Resources<span class="caret"></span></a>
+					<ul class="dropdown-menu dropdown-menu-upper-left dropdown-menu-caret">
+						<li><a href="#">CSS</a></li>
+						<li><a href="#">JavaScript</a></li>
+						<li><a href="#">PHP</a></li>
+						<li><a href="#">Web Design</a></li>
+					</ul>
+				</li>
+			</ul>
+			<form class="navbar-form">
+				<input type="text" placeholder="Input your keyword" value="">
+				<i class="glyphicon glyphicon-search"></i>
+			</form>
+		</div>
+		<div class="body-content">
+			<div class="main">
+				<ul class="breadcrumb">
+					<li><a href="#"><em>Home</em></a></li>
+					<li><a href="#"><em>Web Resources</em></a></li>
+					<li class="active"><a href="#"><em>JavaScript</em></a></li>
+				</ul>
+				<div class="entry" itemscope itemtype="http://schema.org/Article">
+					<div class="entry-header">
+						<div class="date">
+							<div class="year">2014</div>
+							<div class="month">FEB</div>
+							<div class="day">14</div>
+						</div>
+						<div class="title">
+							<h1><a href="#">Open SSL Authorization</a></h1>
+							<ul class="labels">
+								<li class="label"><a class="label-item" href="#">CSS</a></li>
+								<li class="label"><a class="label-item" href="#">JavaScript</a></li>
+								<li class="label"><a class="label-item" href="#">PHP</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="entry-body">
+						<div class="ezHTML-content">
+							<p>The href attribute is different to other element attributes in that the value set can be relative to the context of the page URL. The browser will look at the pages current URL and derive an absolute URL for the link. This is the root of the problem, some browsers return the text of the attribute and others(IE6/IE7) return the derived absolute URL.</p>
+							<h2>What is the XMLHttpRequest object?</h2>
+							<ul class="list">
+								<li>Creating an XMLHttpRequest object.</li>
+								<li>Specifying and submitting your HTTP request to a web server.</li>
+								<li>Synchronously or asynchronously retrieving the server’s response.</li>
+							</ul>
+							<table class="table">
+								<thead>
+									<tr>
+										<th>W3C Standard</th>
+										<th>Internet Explorer</th>
+										<th>Description</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>relatedTarget</td>
+										<td>fromElement<br>toElement</td>
+										<td>fromElement specifes the document element that the mouse came from for mouseover events. toElement specifies the document element that the mouse has moved to for mouseout events.</td>
+									</tr>
+									<tr>
+										<td>relatedTarget</td>
+										<td>fromElement<br>toElement</td>
+										<td>fromElement specifes the document element that the mouse came from for mouseover events. toElement specifies the document element that the mouse has moved to for mouseout events.</td>
+									</tr>
+								</tbody>
+							</table>
+							<ul class="thumbnails">
+								<li class="thumbnail"><img src="images/recipes/160x120xseafood-pumpkin-bisque-1-01.jpg"></li>
+								<li class="thumbnail"><img src="images/recipes/160x120xseafood-pumpkin-bisque-1-02.jpg"></li>
+								<li class="thumbnail"><img src="images/recipes/160x120xseafood-pumpkin-bisque-1-03.jpg"></li>
+								<li class="thumbnail"><img src="images/recipes/160x120xseafood-pumpkin-bisque-1-04.jpg"></li>
+								<li class="thumbnail"><img src="images/recipes/160x120xseafood-pumpkin-bisque-1-05.jpg"></li>
+								<li class="thumbnail"><img src="images/recipes/160x120xseafood-pumpkin-bisque-1-06.jpg"></li>
+								<li class="thumbnail"><img src="images/recipes/160x120xseafood-pumpkin-bisque-1-01.jpg"></li>
+								<li class="thumbnail"><img src="images/recipes/160x120xseafood-pumpkin-bisque-1-02.jpg"></li>
+								<li class="thumbnail"><img src="images/recipes/160x120xseafood-pumpkin-bisque-1-03.jpg"></li>
+							</ul>
+							<pre class="prettyprint lang-js linenums">
+								<code>
+	function createHttpRequest() {          				
+		var httpRequest = null;          					
+		if (window.ActiveXObject) { // For IE6 and below
+			httpRequest = new ActiveXObject("Microsoft.XMLHTTP");	
+		} else { // For IE7 and Modern Browsers         						
+			httpRequest = new XMLHttpRequest();	
+		}
+		return httpRequest;         			
+	}
+								</code>
+							</pre>
+						</div>
+					</div>
+					<div class="entry-footer">
+						<a class="btn btn-small" href="#">Share</a>
+						<a class="btn btn-small" href="#">Like</a>
+					</div>
+				</div>
+
+				<ul class="pagination">
+					<li class="prev"><a href="#"></a></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li class="active"><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#">6</a></li>
+					<li><a href="#">7</a></li>
+					<li><a href="#">8</a></li>
+					<li><a href="#">9</a></li>
+					<li><a href="#">10</a></li>
+					<li class="next"><a href="#"></a></li>
+				</ul>
+
+				<div class="comment-group">
+					<h2>Comments<em>(10 comments)</em></h2>
+					<ul class="media-list media-list-comment">
+						<li class="media">
+							<a class="media-thumb pull-left" href="#"><img class="media-object" src="images/thumb_avatar.png"></a>
+							<div class="media-body">
+								<h4 class="media-heading">
+									<a href="#">Vivian Huang</a>
+									<span class="media-sub">4 months ago</span>
+								</h4>
+								<p>Flat design is functional and fits into our other favorite style, minimalism. As the web transitions into a place where there should be less fluff, less beautification and more of what’s important, it’s hard to see flat design evaporating any time soon.</p>
+								<a class="btn pull-right" href="#">Reply</a>
+								<div class="media">
+									<a class="media-thumb pull-left" href="#"><img class="media-object" src="images/thumb_avatar.png"></a>
+									<div class="media-body">
+										<h4 class="media-heading">
+											<a href="#">Vivian Huang</a>
+											<span class="media-sub">Feb. 14, 2014</span>
+										</h4>
+										<p>Flat design is functional and fits into our other favorite style, minimalism. As the web transitions into a place where there should be less fluff, less beautification and more of what’s important, it’s hard to see flat design evaporating any time soon.</p>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="comment-group">
+					<h2>Leave a comment</h2>
+					<form class="form form-comment">
+						<a class="form-thumb" href="#"><img src="images/thumb_nobody.png"></a>
+						<div class="form-body">
+							<div class="form-row form-error">
+								<label class="form-label" for="name">Name</label>
+								<div class="form-input">
+									<input id="name" class="form-control" type="text" value="">
+									<span class="form-message">Form Message</span>
+								</div>
+							</div>
+							<div class="form-row">
+								<label class="form-label" for="email">E-mail</label>
+								<div class="form-input">
+									<input id="email" class="form-control" type="text" value="">
+									<span class="form-message"></span>
+								</div>
+							</div>
+							<div class="form-row">
+								<label class="form-label" for="message">Message</label>
+								<div class="form-input">
+									<textarea id="message" class="form-control"></textarea>
+									<span class="form-message"></span>
+								</div>
+							</div>
+							<div class="form-action">
+								<button class="btn">Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<div class="sidebar">
+				<div class="list-group">
+					<h4 class="list-group-heading">Categories</h4>
+					<ul>
+						<li><a href="#">CSS</a></li>
+						<li><a href="#">JavaScript</a></li>
+						<li><a href="#">PHP</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-footer">
+			<ul class="nav">
+				<li><a href="#">About Me</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Web Resources</a></li>
+			</ul>
+			<p>Copyright &copy; 2014 PURITYS.ME. All rights reserved.</p>
+		</div>
+	</div>
+</body>
+</html>

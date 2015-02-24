@@ -1,0 +1,268 @@
+.ezHTML-content {
+    font-size: 16px;
+    quote {
+      color: #555;
+      line-height: 24px;
+      font-size: 18px;
+      text-align: justify;
+      text-justify: inter-ideograph;
+      margin: 20px auto;
+      line-height: 30px;
+    }
+    quoteblock,
+    blockquote {
+      padding: 0 0 0 15px;
+      margin: 10px 0 10px 0px;
+      border-left: 5px solid #eeeeee;
+      background: white;
+      color: #666;
+      font-size: 1em;
+        display: block;
+    }
+
+    .img {
+      box-shadow: 3px 3px 30px #C3C2C2;
+      padding: 2px;
+      text-align: center;
+      margin: 0 auto;
+      display: block;
+      border-radius: 5px;
+    }
+
+    .media-image:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .pull-left {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .pull-right {
+        float: right;
+        margin-left: 10px;
+    }
+
+    .indent1 {
+      margin-left: 40px !important;
+    }
+    .indent2 {
+      margin-left: 60px !important;
+    }
+    .indent3 {
+      margin-left: 80px !important;
+    }
+    .codeBlock {
+      margin: 12px auto;
+    }
+    .codeBlock .title {
+      padding: 5px 0 5px 12px;
+      margin: 0 0 0px 0;
+      background: #F7F7F9;
+      display: block;
+      color: #666;
+      font-size: 1em;
+      font-weight: bold;
+      border: 1px solid #ECECF0;
+      border-bottom: 0px;
+      padding: 10px;
+    }
+    .codeBlock .title:empty:before {
+      content: "Example";
+    }
+    /* Specify class=linenums on a pre to get line numbering */
+    .codeBlock {
+      color: black;
+      background-color: #F7F7F9;
+      -webkit-font-smoothing: antialiased;
+    }
+    .prettyprint .com {
+      color: #93a1a1;
+    }
+    .prettyprint .lit {
+      color: #195f91;
+    }
+    .prettyprint .pun,
+    .prettyprint .opn,
+    .prettyprint .clo {
+      color: #3B593A;
+    }
+    .prettyprint .fun {
+      color: #dc322f;
+    }
+    .prettyprint .str,
+    .prettyprint .atv {
+      color: #D14;
+    }
+    .prettyprint .kwd,
+    .prettyprint .linenums .tag {
+      color: #1e347b;
+    }
+    .prettyprint .typ,
+    .prettyprint .atn,
+    .prettyprint .dec,
+    .prettyprint .var {
+      color: teal;
+    }
+    .prettyprint .pln {
+      color: #48484c;
+    }
+    .comment-content pre.prettyprint code,
+    .post-content pre.prettyprint code,
+    pre.prettyprint code {
+      padding: 0;
+      margin: 0;
+      border: none;
+      display: block;
+      white-space: pre;
+    }
+    pre.prettyprint,
+    code.prettyprint,
+    .post-content pre.prettyprint,
+    .post-content code.prettyprint,
+    .comment-content pre.prettyprint,
+    .comment-content code.prettyprint {
+      word-wrap: normal;
+      -moz-tab-size: 2;
+      -o-tab-size: 2;
+      tab-size: 2;
+      max-height: 450px;
+      overflow: auto;
+    }
+    .prettyprint {
+      padding: 8px;
+      margin-top: 0px;
+      background-color: #f7f7f9;
+      border: 1px solid #e1e1e8;
+    }
+    .prettyprint.linenums {
+      padding: 0;
+    }
+    /* Specify class=linenums on a pre to get line numbering */
+    .prettyprint ol.linenums {
+      padding: 8px 8px 8px 50px;
+      margin: 0;
+      -webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+      -moz-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+      box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+    }
+    .prettyprint ol.linenums li {
+      padding-left: 12px;
+      color: #00595B;
+      line-height: 18px;
+      text-shadow: 0 1px 0 #fff;
+    }
+    .prettyprint ol.linenums li:hover {
+      background: #eee;
+    }
+    code.prettyprint {
+      display: block;
+    }
+
+    code {
+        border: 1px solid #cecece;
+        border-radiu: 3px;
+        padding: 2px 5px;
+    }
+
+    /*********table ******/
+    .table {
+      width: 100%;
+      margin-bottom: 1em;
+      word-wrap: break-word;
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+    .table th {
+      background: #222;
+      color: #FFF;
+      padding: 10px;
+      font-weight: 600;
+      border: 1px solid #CCC;
+    }
+
+    .table td {
+        border: 1px solid #CCC;
+        padding: 5px;
+        text-align: center;
+    }
+
+
+    .notice {
+        border-left:0;
+        border-right:0;
+        border-top: 1px dotted #59B200;
+        border-bottom: 1px dotted #59B200;
+        background: #FCFFFA;
+        margin: 2em 0 1.5em 0;
+        padding: .8em .7em .8em 40px;
+        color: #333;
+        font-style: italic;
+
+    }
+    .notice:before {
+        content: attr(label);
+        position: absolute;
+        margin: -35px 0 0 -30px;
+        padding: 5px 10px;
+        -webkit-transform: rotate(-5deg) translateX(-10px);
+        background: #F15757;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        border-radius: 2px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .demo-link {
+        display: block;
+        font-size: 1em;
+        height: 45px;
+        padding: 8px 0 8px 60px;
+        position: relative;
+        width: 50px;
+        word-break: normal;
+        word-wrap: break-word;
+    }
+
+    @font-face {
+        font-family: 'Glyphicons Halflings';
+        src: url('fonts/glyphicons-halflings-regular.eot');
+        src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('fonts/glyphicons-halflings-regular.woff') format('woff'), url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+
+    }
+
+    .glyphicon {
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: 'Glyphicons Halflings';
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .glyphicon-file {
+        color: #C50900;
+        font-size: 3.8em;
+        left: 0;
+        position: absolute;
+        top: 0;
+    }
+
+
+    .glyphicon-file:before {
+        content: "\e022";
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .ezHTML-content {
+    font-size: 14px;
+    .demo-link {
+      padding-left: 55px;
+    }
+  }
+}
